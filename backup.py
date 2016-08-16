@@ -4,7 +4,7 @@ import subprocess
 import datetime
 import gzip
 
-DOKKU_CMD = '/usr/local/bin/dokku'
+DOKKU_CMD = '/usr/bin/dokku'
 DOKKU_ROOT = '/home/dokku'
 VOLUME_STORAGE = os.environ.get('BACKUP_ROOT', '/home/dokku/.volumes')
 BACKUP_ROOT = os.environ.get('BACKUP_ROOT', '/var/backups/data')
